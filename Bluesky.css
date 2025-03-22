@@ -17,8 +17,8 @@ img {
 #general-container {
     background-color: #ffffff;
     border: 0 none;
-    max-width: 1000px;
-    margin: 0 auto 0;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 #leftcolumn {
@@ -43,11 +43,10 @@ img {
     border: 2px solid #fff;
     margin: 0px 0px 0px 5px;
     height: 30px;
-    background: url(/themes/BlueSky/images/block_header_bg.png);
+    background: url('/themes/BlueSky/images/block_header_bg.png');
 }
-
 #main-menu ul {
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -109,24 +108,52 @@ tbody {
     display: block;
     margin-bottom: 10px;
 }
-.vertical_list a {
+.vertical_list .listElement {
+    height: 150px;
+    position: relative;
+    width: 100px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
 }
-.list_slider .listElement img {
+.vertical_list .listElement img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+.vertical_list .listElement span {
+    display: block;
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #000000b2;
+}
+
 .pubBlock {
     margin-bottom: 10px;
     width: 90%;
 }
 .short_download {
     background: #b8d3ef none repeat scroll 0 0;
-    border: 1px solid #b8d3ef;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     display: block;
     font-weight: bold;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding: 4px 10px;
+    font-size: 15px;
+
+    padding: 10px 5px 0px 5px;
     text-align: center;
+    height: 30px;
     width: 100px;
 }
 .shortDetail .text {
@@ -136,6 +163,7 @@ tbody {
 }
 .shortDetail {
     border: medium none;
+    position: relative;
     font-size: 11px;
     line-height: 1.4;
     margin-left: 267px;
@@ -180,26 +208,11 @@ td.top-torrents {
     padding-top: 5px;
     width: 100px;
 }
-.detailBl a.detailTitle {
-    background-color: #b8d3ef;
-    color: #2d76c2;
-    display: block;
-    font-size: 14px;
-    font-weight: bold;
-    height: 30px;
-    line-height: 1.5;
-    margin: 3px;
-    overflow: hidden;
-    padding: 7px 20px 0 10px;
-    text-align: left;
-    text-shadow: 0 0 5px #ffffff, 0 0 8px #b8d3ef;
-    border: 1px solid #fff;
-    box-shadow: 0 0 0 3px #b8d3ef;
-}
+
 a.catMenu {
     background-position: 3px 3px;
     background-repeat: no-repeat;
-    border: 1px solid #c6d3f9;
+    border: none;
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
@@ -207,14 +220,30 @@ a.catMenu {
     margin: 3px;
     padding: 8px 30px 3px 40px;
 }
+/* Сброс цвета текста для всех состояний */
+.catMenu,
+.catMenu.short,
+.catMenu span,
+.catMenu.short span {
+    color: #333333; /* Основной цвет текста */
+    /* Убираем подчеркивание */
+}
+
+.catMenu:hover,
+.catMenu.short:hover,
+.catMenu:hover span,
+.catMenu.short:hover span {
+    background-color: #2d76c2 !important; /* Синий фон при наведении */
+    color: #ffffff !important; /* Белый текст при наведении */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+    text-decoration: none;
+}
 a.catMenu.short {
     font-size: 12px;
     font-weight: normal;
     padding: 8px 0px 3px 16px;
 }
-a.catMenu:hover {
-    border: 1px solid #5681dd;
-}
+
 ul.category_bl {
     margin: 0;
     padding: 0;
@@ -262,8 +291,8 @@ ul.category_bl {
         no-repeat scroll 0 0;
     display: block;
     float: right;
-    font-size: 16px;
-    height: 35px;
+    font-size: 12px;
+    height: 25px;
     margin-left: 20px;
     margin-right: 45px;
     padding-left: 35px;
@@ -466,7 +495,7 @@ a:hover {
     font-size: 11px;
     padding: 0;
 }
-#footerPage a {
+#headerBl #footerPage a {
     color: #ffffff;
 }
 #footerDecor {
@@ -483,11 +512,19 @@ a:hover {
     height: 125px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
-    width: 92%;
+
+    width: 100%;
 }
+
+.header_content {
+    max-width: 1280px; /* Ширина содержимого хедера */
+    margin: 0 auto; /* Центрирование содержимого */
+    padding: 0 10px; /* Небольшие отступы по бокам */
+}
+
 #headerBl a.logo {
-    background: transparent url("/themes/BlueSky/images/logo_new.png") repeat scroll 0 0;
+    background: transparent url('/themes/BlueSky/images/logo_new.png') repeat
+        scroll 0 0;
     display: block;
     float: left;
     height: 65px;
@@ -496,7 +533,7 @@ a:hover {
     width: 227px;
     padding: 60px 30px 0 145px;
     text-align: right;
-    font-size: 12px;
+    font-size: 10px;
 }
 #headerBl .menu {
     margin-left: 382px;
@@ -729,8 +766,8 @@ a.help_link:hover {
     width: 402px;
 }
 #MenuTop {
-
-    background: #c7edf8 url('/themes/BlueSky/images/cen_top.png') no-repeat scroll 0 0;
+    background: #c7edf8 url('/themes/BlueSky/images/cen_top.png') no-repeat
+        scroll 0 0;
     height: 61px;
 }
 #MenuCenter {
@@ -762,15 +799,20 @@ a.help_link:hover {
         no-repeat scroll left center;
     width: 20px;
 }
+#men_options li {
+    margin: 0 30px;
+}
 
 #men_options td {
     border: medium none;
     text-align: center;
 }
+
 #men_options td a {
     color: #ffffff;
     font-size: 11px;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 #men_options td a:hover {
     text-decoration: underline;
@@ -913,6 +955,7 @@ a.copyright:active {
 }
 table {
     background-color: #f5f5f5;
+    width: 100%;
     border: medium none;
     border-collapse: collapse;
 }
@@ -1722,6 +1765,7 @@ input.search {
 #leftcolumn .category_bl {
     display: block;
 }
+
 .text b.newstitle {
     font-size: 14px;
     padding-bottom: 10px;
@@ -1785,6 +1829,10 @@ input.search {
         height: auto;
         margin-left: 0px;
     }
+    #main-menu ul {
+        padding: 10px;
+        margin: 0px;
+    }
 
     #headerBl {
         height: auto;
@@ -1800,4 +1848,136 @@ input.search {
         margin-left: 0px;
         width: 100%;
     }
+}
+@media (min-width: 2560px) {
+    .header_content {
+        max-width: 2560px;
+    }
+    #leftcolumn {
+        width: 500px;
+    }
+    #general-container {
+        max-width: 2560px;
+    }
+    #centralcolumn {
+        margin-left: 500px;
+    }
+    .category_bl {
+        columns: 2;
+        column-gap: 10px;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .category_bl li {
+        margin: 5px 0;
+    }
+}
+
+.middleBlock {
+    max-width: 95%;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #b8d3ef;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Заголовок внутри блока */
+.middleBlock h3 {
+    color: #2d76c2;
+    font-size: 18px;
+    margin: 0 0 15px;
+
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Улучшаем текст внутри блока */
+.middleBlock p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+    margin: 10px 0;
+}
+
+.list_slider {
+    padding: 10px;
+    gap: 12px; /* Расстояние между карточками */
+    height: 270px; /* Высота слайдера */
+}
+
+.list_slider::-webkit-scrollbar {
+    height: 8px;
+}
+
+.list_slider::-webkit-scrollbar-thumb {
+    background-color: #b8d3ef;
+    border-radius: 10px;
+}
+
+/* Карточка фильма */
+.list_slider .listElement {
+    height: 210px;
+    position: relative;
+    width: 158px;
+    background-color: #ffffff;
+
+    overflow: hidden;
+    margin: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.list_slider .listElement:hover {
+    transform: scale(1.05);
+}
+
+/* Изображение фильма */
+.list_slider .listElement img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* Название фильма */
+.list_slider .listElement span {
+    display: block;
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #000000b2;
+}
+#leftcolumn .category_bl a.active {
+    background-color: #b1b1b13d;
+}
+
+.bottom_download .download {
+    font-size: 16px;
+    height: 45px;
+}
+.detailBl a.detailTitle {
+    background-color: #b8d3ef;
+    color: #2d76c2;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 1.5;
+
+    overflow: hidden;
+    padding: 7px 20px 0 10px;
+    text-align: left;
+
+    border: none;
 }
