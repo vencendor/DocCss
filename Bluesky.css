@@ -43,7 +43,7 @@ img {
     border: 2px solid #fff;
     margin: 0px 0px 0px 5px;
     height: 30px;
-    background: url('/themes/BlueSky/images/block_header_bg.png');
+    background: url('/themes/Bluesky/images/block_header_bg.png');
 }
 #main-menu ul {
     padding: 0px;
@@ -523,7 +523,7 @@ a:hover {
 }
 
 #headerBl a.logo {
-    background: transparent url('/themes/BlueSky/images/logo_new.png') repeat
+    background: transparent url('/themes/Bluesky/images/logo_new.png') repeat
         scroll 0 0;
     display: block;
     float: left;
@@ -567,7 +567,7 @@ a:hover {
 }
 
 .block_title {
-    background: url('/themes/BlueSky/images/block_header_bg.png');
+    background: url('/themes/Bluesky/images/block_header_bg.png');
     color: #fff;
     text-align: center;
     font-weight: bold;
@@ -766,7 +766,7 @@ a.help_link:hover {
     width: 402px;
 }
 #MenuTop {
-    background: #c7edf8 url('/themes/BlueSky/images/cen_top.png') no-repeat
+    background: #c7edf8 url('/themes/Bluesky/images/cen_top.png') no-repeat
         scroll 0 0;
     height: 61px;
 }
