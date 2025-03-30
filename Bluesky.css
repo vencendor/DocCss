@@ -82,35 +82,47 @@ tbody {
     width: 98%;
     overflow: hidden;
 }
-.list_slider {
-    overflow: hidden;
-    width: 98%;
-}
+
+
 .list_slider .slider {
     max-height: 152px;
+    display: flex;
+    justify-content: space-around;
 }
 .list_slider .listElement {
     display: inline-block;
 }
 .blockDiv .vertical_list .listElement span {
-    font-size: 10px;
-    padding-left: 4px;
+    background-color: #b8d3ef;
+    font-size: 13px;
+    color: #2d76c2;
+    font-weight: bold;
+ 
+    height: 40px;
+    width: 100%;
+    padding: 5px;
     text-align: left;
 }
 .vertical_list {
     padding: 2px;
 }
+
 .blockDiv .vertical_list .listElement {
+    margin-left: 20px;
+    height: 250px;
+    width: 180px;
     display: inline-block;
     padding: 1px;
+    margin-bottom: 20px;
 }
 .listElement a {
     display: block;
     margin-bottom: 10px;
-    width: 100%;
+    width: 180px;
     height: 100%;
 
 }
+
 .vertical_list .listElement {
     height: 150px;
     position: relative;
@@ -1893,6 +1905,7 @@ input.search {
     overflow: hidden;
 }
 
+
 /* Заголовок внутри блока */
 .middleBlock h3 {
     color: #2d76c2;
@@ -1913,8 +1926,7 @@ input.search {
 
 .list_slider {
     padding: 10px;
-    gap: 12px; /* Расстояние между карточками */
-    height: 270px; /* Высота слайдера */
+    height: 330px; /* Высота слайдера */
 }
 
 .list_slider::-webkit-scrollbar {
@@ -1927,17 +1939,20 @@ input.search {
 }
 
 /* Карточка фильма */
-.list_slider .listElement {
-    height: 210px;
-    position: relative;
-    width: 158px;
-    background-color: #ffffff;
 
+.list_slider .listElement {
+    height: 275px;
+    position: relative;
+    width: 200px;
+    background-color: #ffffff;
     overflow: hidden;
     margin: 5px;
     margin-bottom: 20px;
     transition: transform 0.3s;
 }
+
+
+
 
 .list_slider .listElement:hover {
     transform: scale(1.05);
@@ -1951,18 +1966,24 @@ input.search {
 }
 
 /* Название фильма */
+
 .list_slider .listElement span {
     display: block;
     position: absolute;
     left: -1px;
     bottom: 0;
     width: 100%;
-    padding: 6px;
+    height: 25px;
+    padding: 10px 6px;
     font-size: 14px;
+    font-size: 15px;
     text-align: center;
-    color: #ffffff;
+   
     font-weight: bold;
-    background-color: #9fc4ec;
+   
+    background-color: #b8d3ef;
+    
+    color: #2d76c2;
 }
 #leftcolumn .category_bl a.active {
     background-color: #b1b1b13d;
@@ -1987,3 +2008,10 @@ input.search {
 
     border: none;
 }
+
+
+
+
+
+
+
