@@ -137,7 +137,7 @@ tbody {
     text-align: center;
     color: #ffffff;
     font-weight: bold;
-    background-color: #000000b2;
+    background-color: #23b7f1b2;
 }
 
 .pubBlock {
@@ -1716,6 +1716,9 @@ input.search {
     border: 1px solid #ffffff;
 }
 .tor_cats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #d2e7fc;
     color: #666;
     font-size: 15px;
