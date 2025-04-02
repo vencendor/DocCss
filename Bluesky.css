@@ -2009,6 +2009,40 @@ input.search {
 
     border: none;
 }
+tr:nth-of-type(3) td.colhead {
+    
+    background-image:none;
+    
+}
+ .respond a{
+        background-color:#5d91c7;
+     color: #ffffff;
+      line-height: 30px;
+     font-size:13px;
+     
+    }
+    
+    td.colhead{
+         padding-right:10px ;
+    }
+    
+    
+    table.main img {
+    max-width: 65px;
+}
+ .trueBlock {
+border:none;
+margin-left:none;
+   
+}
+    .blockDiv {
+   border:none;
+  
+
+}
+    .noborder {
+   padding:5px 0;
+}
 
 
 
