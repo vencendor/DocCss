@@ -1944,7 +1944,6 @@ input.search {
 .list_slider .listElement {
     height: 275px;
     position: relative;
-    width: 200px;
     background-color: #ffffff;
     overflow: hidden;
     margin: 5px;
@@ -1953,6 +1952,9 @@ input.search {
 }
 
 
+.list_slider .listElement a{
+    width: auto;
+}
 
 
 .list_slider .listElement:hover {
