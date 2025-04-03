@@ -432,8 +432,8 @@ a:hover {
     padding-top: 7px;
     text-align: left;
 }
-.info-b > span,
-.info-t > span {
+.info-b  span,
+.info-t  span {
     display: inline-block;
     height: 21px;
     line-height: 22px;
@@ -441,7 +441,7 @@ a:hover {
     padding-left: 26px;
 }
 
-.info-b > span.views {
+.info-b span.views {
     margin-left: 0px;
 }
 
