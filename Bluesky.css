@@ -107,7 +107,8 @@ tbody {
 }
 
 .blockDiv .vertical_list .listElement {
-
+    margin: 0;
+    padding: 0;
     height: 340px;
     width: 100%;
     display: inline-block;
@@ -1893,14 +1894,15 @@ input.search {
 }
 
 .middleBlock {
-    max-width: 95%;
+    max-width: 96%;
     height: 200px;
     margin: 20px auto;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #b8d3ef;
-
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+   
     overflow: hidden;
 }
 
