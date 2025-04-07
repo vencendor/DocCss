@@ -116,7 +116,7 @@ tbody {
 .listElement a {
     display: block;
     margin-bottom: 10px;
-    width: 180px;
+    width: 100%;
     height: 100%;
 
 }
@@ -639,7 +639,7 @@ a:hover {
 }
 .blockDiv .listElement {
     margin-bottom: 0;
-    padding: 7px 7px 0;
+
 }
 .blockDiv .listElement span {
     font-size: 14px;
