@@ -1926,7 +1926,7 @@ input.search {
 }
 
 .list_slider {
-    padding: 10px;
+  
     height: 330px; /* Высота слайдера */
 }
 
@@ -2047,9 +2047,16 @@ margin-left:none;
    padding:5px 0;
 }
 
+.yashare-auto-init{
+    display: flex;
+}
 
 
 
 
+.b-share_theme_counter .b-share {
+    margin-left: auto;
+  
+}
 
 
