@@ -39,8 +39,6 @@ img {
     text-align: center;
     font-weight: bold;
     padding: 3px;
-    box-shadow: 0 0 5px #c4c4c4;
-    border: 2px solid #fff;
     margin: 0px 0px 0px 5px;
     height: 30px;
     background: url('/themes/Bluesky/images/block_header_bg.png');
@@ -110,8 +108,8 @@ tbody {
 
 .blockDiv .vertical_list .listElement {
     margin-left: 20px;
-    height: 250px;
-    width: 180px;
+    height: 340px;
+    width: 100%;
     display: inline-block;
     padding: 1px;
     margin-bottom: 20px;
@@ -141,6 +139,7 @@ tbody {
 }
 .vertical_list .listElement span {
     display: block;
+    margin: auto;
     position: absolute;
     left: -1px;
     bottom: 0;
@@ -1990,6 +1989,7 @@ input.search {
 }
 #leftcolumn .category_bl a.active {
     background-color: #b1b1b13d;
+    margin: 0px;
 }
 
 .bottom_download .download {
