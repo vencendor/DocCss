@@ -361,10 +361,11 @@ a.onlineVers {
         scroll 0 -252px;
 }
 .torHead {
-    border-bottom: 1px solid #d2e7fc;
+    border-bottom: none;
     border-top: 1px solid #d2e7fc;
-    margin: 10px 10px 0;
-    padding: 20px 0 0;
+    padding-bottom: 1px;
+    margin: 0;
+    margin-top: 10px;
 }
 .torHead .links {
     float: left;
@@ -425,10 +426,7 @@ a:hover {
     text-align: left;
 }
 .info-b {
-    border-top: 1px solid #d7e3ef;
     margin-bottom: 10px;
-    margin-top: -30px;
-    padding-top: 7px;
     text-align: left;
 }
 .info-b  span,
@@ -1298,6 +1296,9 @@ td.comment {
 td.colhead {
     background-image: url('data:image/gif;base64,Qk2mCAAAAAAAADYAAAAoAAAAGgAAABsAAAABABgAAAAAAHAIAADEDgAAxA4AAAAAAAAAAAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1o1J1oAADUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWjUnWgAANSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaNSdaAAA');
     color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3px;
     font-weight: bold;
 }
 .colhead_com {
@@ -1717,6 +1718,8 @@ input.search {
 .tor_cats a {
     background-color: #88b2dd;
     border: 1px solid #689dd4;
+    min-width: 70px;
+    text-align: center ;
     border-radius: 3px;
     padding: 2px 10px;
     margin: 2px 5px;
@@ -2025,9 +2028,7 @@ tr:nth-of-type(3) td.colhead {
      
     }
     
-    td.colhead{
-         padding-right:10px ;
-    }
+
     
     
     table.main img {
@@ -2060,3 +2061,10 @@ margin-left:none;
 }
 
 
+.twotest{
+    margin: 0;
+}
+#footerPage h4 {
+    /* Ваши стили */
+    color: rgb(255, 255, 255);
+}
