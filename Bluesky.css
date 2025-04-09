@@ -73,13 +73,7 @@ tbody {
     margin: 0 0 7px;
     text-align: left;
 }
-.middleBlock {
-    border: 1px solid #b8d3ef;
-    margin: 10px auto 0;
-    padding: 5px;
-    width: 98%;
-    overflow: hidden;
-}
+
 
 .list_slider .slider {
     display: flex;
@@ -1892,6 +1886,8 @@ input.search {
 }
 
 .middleBlock {
+    border: 1px solid #b8d3ef;
+    max-height: 400px;
     width: 100%;
     padding: 20px 0;
     border-left: none;
