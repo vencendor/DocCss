@@ -84,7 +84,7 @@ tbody {
 
 
 .list_slider .slider {
-    max-height: 152px;
+   
     display: flex;
     justify-content: space-around;
 }
@@ -1655,6 +1655,7 @@ input.search {
     vertical-align: middle;
     width: 221px;
 }
+
 .details_related span {
     color: #2d76c2;
     display: block;
@@ -1899,10 +1900,10 @@ input.search {
 }
 
 .middleBlock {
-    max-width: 96%;
+    width: 100%;
     height: 200px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 0;
+    padding: 20px 0;
     background-color: #ffffff;
     border: 1px solid #b8d3ef;
     border-left: none;
@@ -1929,12 +1930,6 @@ input.search {
     color: #333333;
     margin: 10px 0;
 }
-
-.list_slider {
-  
-    height: 330px; /* Высота слайдера */
-}
-
 .list_slider::-webkit-scrollbar {
     height: 8px;
 }
@@ -1947,12 +1942,11 @@ input.search {
 /* Карточка фильма */
 
 .list_slider .listElement {
-    height: 275px;
+    width: 24%;
     position: relative;
     background-color: #ffffff;
     overflow: hidden;
-    margin: 5px;
-    margin-bottom: 20px;
+
     transition: transform 0.3s;
 }
 
