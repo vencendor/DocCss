@@ -81,10 +81,7 @@ tbody {
     overflow: hidden;
 }
 
-
-
 .list_slider .slider {
-   
     display: flex;
     justify-content: space-around;
 }
@@ -96,11 +93,10 @@ tbody {
     font-size: 13px;
     color: #2d76c2;
     font-weight: bold;
- margin:auto;
+    margin: auto;
     height: 40px;
     width: 100%;
     padding: 5px;
-
 }
 .vertical_list {
     padding: 2px;
@@ -119,7 +115,6 @@ tbody {
     margin-bottom: 10px;
     width: 100%;
     height: 100%;
-
 }
 
 .vertical_list .listElement {
@@ -429,8 +424,8 @@ a:hover {
     margin-bottom: 10px;
     text-align: left;
 }
-.info-b  span,
-.info-t  span {
+.info-b span,
+.info-t span {
     display: inline-block;
     height: 21px;
     line-height: 22px;
@@ -638,7 +633,6 @@ a:hover {
 }
 .blockDiv .listElement {
     margin-bottom: 0;
-
 }
 .blockDiv .listElement span {
     font-size: 14px;
@@ -1670,7 +1664,6 @@ input.search {
     padding: 20px 0 10px 8px;
 }
 .details_related {
-  
     border-top: 1px solid #d2e7fc;
     margin-left: 0;
     margin-right: -10px;
@@ -1708,7 +1701,6 @@ input.search {
     font-size: 12px;
     height: 40px;
     margin: 0px;
-   
 }
 .details_related img {
     margin: 0px;
@@ -1722,7 +1714,7 @@ input.search {
     background-color: #88b2dd;
     border: 1px solid #689dd4;
     min-width: 70px;
-    text-align: center ;
+    text-align: center;
     border-radius: 3px;
     padding: 2px 10px;
     margin: 2px 5px;
@@ -1901,17 +1893,11 @@ input.search {
 
 .middleBlock {
     width: 100%;
-    height: 200px;
-    margin: 0;
     padding: 20px 0;
-    background-color: #ffffff;
-    border: 1px solid #b8d3ef;
     border-left: none;
     border-right: none;
-   
     overflow: hidden;
 }
-
 
 /* Заголовок внутри блока */
 .middleBlock h3 {
@@ -1950,11 +1936,9 @@ input.search {
     transition: transform 0.3s;
 }
 
-
-.list_slider .listElement a{
+.list_slider .listElement a {
     width: auto;
 }
-
 
 .list_slider .listElement:hover {
     transform: scale(1.05);
@@ -1980,11 +1964,11 @@ input.search {
     font-size: 14px;
     font-size: 15px;
     text-align: center;
-   
+
     font-weight: bold;
-   
+
     background-color: #b8d3ef;
-    
+
     color: #2d76c2;
 }
 #leftcolumn .category_bl a.active {
@@ -2012,55 +1996,40 @@ input.search {
     border: none;
 }
 tr:nth-of-type(3) td.colhead {
-    
-    background-image:none;
-    
+    background-image: none;
 }
- .respond a{
-        background-color:#5d91c7;
-     color: #ffffff;
-      line-height: 30px;
-     font-size:13px;
-     
-    }
-    
+.respond a {
+    background-color: #5d91c7;
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 13px;
+}
 
-    
-    
-    table.main img {
+table.main img {
     max-width: 65px;
 }
- .trueBlock {
-border:none;
-margin-left:none;
-   
+.trueBlock {
+    border: none;
+    margin-left: none;
 }
-    .blockDiv {
-   border:none;
-  
-
+.blockDiv {
+    border: none;
 }
-    .noborder {
-   padding:5px 0;
+.noborder {
+    padding: 5px 0;
 }
 
-.yashare-auto-init{
+.yashare-auto-init {
     display: flex;
 }
 
-
-
-
 .b-share_theme_counter .b-share {
     margin-left: auto;
-  
 }
 
-
-.twotest{
+.twotest {
     margin: 0;
 }
 #footerPage h4 {
-    
     color: rgb(255, 255, 255);
 }
