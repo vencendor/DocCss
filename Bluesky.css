@@ -1669,12 +1669,13 @@ input.search {
     padding: 20px 0 10px 8px;
 }
 .details_related {
+  
     border-top: 1px solid #d2e7fc;
     margin-left: 0;
     margin-right: -10px;
     margin-top: 0;
     padding: 0;
-    max-width: 720px;
+    width: 100%;
     padding-bottom: 45px;
 }
 .pblock div {
@@ -1692,20 +1693,21 @@ input.search {
 }
 .details_related img {
     display: block;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 .details_related a {
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 0.35%;
     text-align: center;
-    width: 126px;
+    width: 19%;
 }
 .details_related span {
-    font-size: 10px;
-    font-weight: normal;
+    font-size: 12px;
+    height: 40px;
     margin: 0px;
-    padding-left: 4px;
-    text-align: left;
+   
 }
 .details_related img {
     margin: 0px;
