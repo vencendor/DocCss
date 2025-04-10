@@ -1690,6 +1690,7 @@ input.search {
     margin: 0 0.35%;
     text-align: center;
     width: 19%;
+    transition: transform 0.3s;
 }
 .details_related span {
     font-size: 12px;
@@ -1887,7 +1888,7 @@ input.search {
 
 .middleBlock {
     border: 1px solid #b8d3ef;
-    max-height: 400px;
+   
     width: 100%;
     padding: 20px 0;
     border-left: none;
@@ -1900,7 +1901,6 @@ input.search {
     color: #2d76c2;
     font-size: 18px;
     margin: 0 0 15px;
-
     text-align: left;
     font-weight: bold;
 }
@@ -1990,6 +1990,10 @@ input.search {
     text-align: left;
 
     border: none;
+}
+
+.details_related a:hover{
+    transform: scale(1.05);
 }
 tr:nth-of-type(3) td.colhead {
     background-image: none;
