@@ -74,7 +74,6 @@ tbody {
     text-align: left;
 }
 
-
 .list_slider .slider {
     display: flex;
     justify-content: space-around;
@@ -1886,7 +1885,7 @@ input.search {
 
 .middleBlock {
     border: 1px solid #b8d3ef;
-   
+
     width: 100%;
     padding: 20px 0;
     border-left: none;
@@ -1991,7 +1990,7 @@ input.search {
     border: none;
 }
 
-.details_related a:hover{
+.details_related a:hover {
     transform: scale(1.05);
 }
 tr:nth-of-type(3) td.colhead {
@@ -2032,9 +2031,7 @@ table.main img {
 #footerPage h4 {
     color: rgb(255, 255, 255);
 }
-.detailCont img:nth-of-type(1){
-width: 300px;
-  
-margin: 5px 40px 30px 0;
-
+.detailCont img:nth-child(2) {
+    width: 300px;
+    margin: 5px 40px 30px 0;
 }
