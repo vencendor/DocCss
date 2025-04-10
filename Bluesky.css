@@ -31,7 +31,7 @@ img {
 #centralcolumn {
     border: medium none;
     padding: 0 0 5px;
-    margin-left: 236px;
+    margin-left: 246px;
 }
 
 #main-menu {
@@ -469,9 +469,7 @@ a:hover {
     margin: 0 auto;
     width: 70px;
 }
-.detailCont img {
-    margin: 5px 5px 5px 0;
-}
+
 .browseTitle {
     display: block;
     font-size: 12px;
@@ -2033,4 +2031,10 @@ table.main img {
 }
 #footerPage h4 {
     color: rgb(255, 255, 255);
+}
+.detailCont img {
+width: 300px;
+  
+margin: 5px 40px 30px 0;
+
 }
