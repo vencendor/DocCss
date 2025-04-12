@@ -2033,7 +2033,8 @@ table.main img {
     color: rgb(255, 255, 255);
 }
 .detailCont > div:first-child > div:first-child {
-    height: 400px;
+    min-height: 400px;
+    height: auto;
   }
 .detailCont > div > div >img {
     float: left;
@@ -2043,5 +2044,5 @@ table.main img {
     margin: 0 41px 10px 0;
   }
 br {
-    display:inline;
+    display:inline !important;
 }
