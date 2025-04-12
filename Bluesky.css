@@ -2031,7 +2031,7 @@ table.main img {
 #footerPage h4 {
     color: rgb(255, 255, 255);
 }
-.detailCont img:nth-child(2) {
+.detailCont img:nth-child(3) {
     width: 300px;
     margin: 5px 40px 30px 0;
 }
