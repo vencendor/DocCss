@@ -2036,7 +2036,7 @@ table.main img {
     min-height: 400px;
     height: auto;
   }
-.detailCont > div > div >img {
+.detailCont > div > div:first-child {
     float: left;
     width: 300px;
     height: 400px;
