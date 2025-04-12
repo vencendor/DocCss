@@ -2032,9 +2032,9 @@ table.main img {
 #footerPage h4 {
     color: rgb(255, 255, 255);
 }
-.detailCont > div > div {
-  height: 400px 
-}
+.detailCont > div:first-child > div:first-child {
+    height: 400px;
+  }
 .detailCont > div > div >img {
     float: left;
     width: 300px;
