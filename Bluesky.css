@@ -2037,7 +2037,9 @@ table.main img {
     width: 100%;
     height: auto;
   }
-.detailCont > div > div:first-child {
+
+
+  .detailCont img:first-of-type{
     float: left;
     width: 300px;
     height: 400px;
