@@ -2034,6 +2034,7 @@ table.main img {
 }
 .detailCont > div:first-child > div:first-child {
     min-height: 400px;
+    width: 100%;
     height: auto;
   }
 .detailCont > div > div:first-child {
