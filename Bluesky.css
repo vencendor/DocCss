@@ -2039,7 +2039,7 @@ table.main img {
   }
 
 
-  .detailCont img:nth-child(3){
+  .detailCont img:first-of-type{
     float: left;
     width: 300px;
     height: 400px;
