@@ -2057,6 +2057,7 @@ br {
 
 }
 .det_screens img{
+    display: inline!important;
     float: none!important;
     width: 150px !important;
     height: auto !important;
