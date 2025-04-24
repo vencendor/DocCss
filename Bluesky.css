@@ -92,7 +92,7 @@ tbody {
     padding: 5px;
 }
 .vertical_list {
-    padding: 2px;
+    padding: 2px 0;
 }
 
 .blockDiv .vertical_list .listElement {
