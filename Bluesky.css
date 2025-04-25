@@ -1914,7 +1914,7 @@ input.search {
         width: 100%;
     }
 }
-@media (min-width: 2560px) {
+@media (min-width: 4560px) {
     .header_content {
         max-width: 2560px;
     }
