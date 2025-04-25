@@ -274,7 +274,7 @@ ul.category_bl {
 
 .sub_category {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 5px;
 }
 
@@ -293,7 +293,7 @@ ul.category_bl {
 }
 .detailBl img.poster {
     float: left;
-    margin: 5px;
+    margin: 0px 10px 10px 0px;
     width: 256px;
     height: 320px;
 }
@@ -318,7 +318,6 @@ ul.category_bl {
     text-align: left;
 }
 .detTitle {
-    border-bottom: 1px solid #d2e7fc;
     color: #3674b5;
     font-size: 20px;
     margin: 0 0 5px;
@@ -365,7 +364,6 @@ a.onlineVers {
 }
 .torHead {
     border-bottom: none;
-    border-top: 1px solid #d2e7fc;
     padding-bottom: 1px;
     margin: 0;
     margin-top: 10px;
@@ -495,6 +493,7 @@ a:hover {
 }
 #footerPage {
     background-color: #689dd4;
+    color: #ffffff;
     padding: 15px 30px;
     text-align: left;
 }
@@ -544,10 +543,11 @@ a:hover {
     height: 65px;
     margin-left: -20px;
     margin-right: 0;
-    width: 227px;
-    padding: 60px 30px 0 145px;
+    width: 247px;
+    padding: 60px 10px 0 145px;
     text-align: right;
-    font-size: 13px;
+    font-size: 8px;
+    line-height: 10px;
 }
 #headerBl .menu {
     margin-left: 382px;
@@ -1719,15 +1719,18 @@ input.search {
 }
 .tor_cats a {
     background-color: #88b2dd;
-    border: 1px solid #689dd4;
-    min-width: 70px;
+    border:1px solid #689dd4;
     text-align: center;
-    border-radius: 3px;
-    padding: 2px 10px;
-    margin: 2px 5px;
+    border-radius:3px;
+    padding:2px 10px;
+    margin:2px 5px;
     color: #fff;
     font-size: 12px;
     display: inline-block;
+    white-space:nowrap;
+    flex:0 0 auto;
+    padding:4px 8px;
+    border-radius:4px;
 }
 .tor_cats a:hover {
     border: 1px solid #ffffff;
@@ -1833,6 +1836,28 @@ input.search {
     float: left;
     height: 20px;
     margin: 3px 20px 3px 3px;
+}
+
+@media (max-width: 420px) {
+    .detailBl a.detailTitle{
+        font-size: 12px;
+    }
+    .headerBl .header_content{
+        padding: 0px;
+    }
+    a.login_button{
+        float: none;
+    }
+    #MenuTop{
+        background: none;
+        height: 65px;
+    }
+    #MenuBottom{
+        height: 25px;
+    }
+    .shortDetail .info-b .short_download{
+       font-size: 12px;
+    }
 }
 
 @media (max-width: 930px) {
@@ -2062,7 +2087,7 @@ table.main img {
     width: 300px;
     height: 400px;
     display: block;
-    margin: 0 41px 10px 0;
+    margin: 0 41px 20px 0;
   }
 
 .related img{ 
