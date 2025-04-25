@@ -164,7 +164,7 @@ tbody {
 }
 .shortDetail .text {
     height: 205px;
-    margin: 40px 0;
+    margin:  25px 0 25px 0;
     overflow: hidden;
 }
 .shortDetail {
@@ -425,9 +425,8 @@ a:hover {
 }
 .info-t {
     border-bottom: 1px solid #d7e3ef;
-    margin-bottom: -30px;
-    padding-bottom: 5px;
     text-align: left;
+    padding: 10px 0px;
 }
 .info-b {
     margin-bottom: 10px;
