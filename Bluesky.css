@@ -101,7 +101,10 @@ tbody {
     height: 340px;
     width: 100%;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+.blockDiv .vertical_list .listElement a{
+    margin-bottom: 0px;
 }
 .listElement a {
     display: block;
@@ -187,6 +190,7 @@ tbody {
     position: static;
     bottom: auto;
     right: auto;
+    margin-top: 20px;
 }
 .miniTitle {
     display: block;
@@ -300,7 +304,7 @@ ul.category_bl {
 .detailBl {
     border: 1px solid #b8d3ef;
     margin: 0px auto 0;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     width: 100%;
 }
 .download {
@@ -1737,13 +1741,13 @@ input.search {
 }
 .tor_cats {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px solid #d2e7fc;
+    border-bottom:1px solid #d2e7fc;
     color: #666;
     font-size: 15px;
-    margin: 30px 10px 10px;
-    padding: 10px 20px;
+    margin: 30px 10px 0px 10px;
+    padding: 10px 0px 10px 0px;
     text-align: left;
 }
 .miniSpanTitle {
@@ -1838,7 +1842,7 @@ input.search {
     margin: 3px 20px 3px 3px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 650px) {
     .detailBl a.detailTitle{
         font-size: 12px;
     }
@@ -1857,6 +1861,7 @@ input.search {
     }
     .shortDetail .info-b .short_download{
        font-size: 12px;
+
     }
 }
 
@@ -2010,7 +2015,6 @@ input.search {
   align-items: center;
 }
 #leftcolumn .category_bl a.active {
-    background-color: #b1b1b13d;
     margin: 0px;
 }
 
@@ -2073,6 +2077,9 @@ table.main img {
     margin: 0;
 }
 #footerPage h4 {
+    color: rgb(255, 255, 255);
+}
+#footerPage h4 a{
     color: rgb(255, 255, 255);
 }
 .detailCont > div:first-child > div:first-child {
